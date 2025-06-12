@@ -32,28 +32,6 @@ The models were trained on 80% of the historical data and evaluated on the most 
     -   **Random Forest**: R² Score ≈ 0.9988
 -   **Conclusion**: The Random Forest Regressor performed marginally better, suggesting some minor non-linear relationships in the data. The prediction plot below visually confirms the model's ability to track the actual closing price with high precision.
 
-![Tesla Stock Prediction Plot](TSLA_prediction_plot.png)
-
-### How to Run the Script
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-    cd YOUR_REPOSITORY_NAME
-    ```
-
-2.  **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Run the script:**
-    ```bash
-    python stock_predictor.py
-    ```
-    The script will download the data, train the models, print the evaluation metrics, and save a plot named `TICKER_prediction_plot.png`.
-
----
 
 ### **Disclaimer**
 
